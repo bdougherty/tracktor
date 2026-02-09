@@ -169,7 +169,7 @@
 						bind:value={$formData.fuelAmount}
 						icon={Fuel}
 						type="number"
-						step=".01"
+						step=".001"
 						placeholder={`${volumeLabel} (${getFuelUnit(selectedVehicle?.fuelType as string)})`}
 					/>
 				{/snippet}
